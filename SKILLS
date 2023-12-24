@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em 0;
+    }
+
+    section {
+      margin: 2em;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .skills-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .skill {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 1em;
+      margin: 1em;
+      width: calc(33.333% - 2em);
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>Web Developer</p>
+  </header>
+
+  <section>
+    <h2>Communication Skills</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt libero eget felis rhoncus, a sollicitudin nisi vestibulum.</p>
+  </section>
+
+  <section>
+    <h2>Leadership Skills</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt libero eget felis rhoncus, a sollicitudin nisi vestibulum.</p>
+  </section>
+
+  <section>
+    <h2>Web Development Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <h3>HTML</h3>
+        <p>Proficient</p>
+      </div>
+      <div class="skill">
+        <h3>CSS</h3>
+        <p>Proficient</p>
+      </div>
+      <div class="skill">
+        <h3>JavaScript</h3>
+        <p>Intermediate</p>
+      </div>
+      <!-- Add more skills as needed -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
